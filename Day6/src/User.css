@@ -1,0 +1,12 @@
+/* User.css */
+body, html {
+  margin: 0px;
+  padding: 0;
+}
+
+  
+  .blank-space {
+    height: 50px; /* Adjust the height as needed */
+    /* You can also add additional styling to the blank space here */
+  }
+  
