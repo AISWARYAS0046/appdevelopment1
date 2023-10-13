@@ -1,0 +1,78 @@
+/* Search.css */
+.SearchPage {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .SearchPage h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .SearchPage input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .SearchPage input[type="text"]:focus {
+    border-color: #e74c3c;
+  }
+  
+  .SearchPage button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .SearchPage button:hover {
+    background-color: #c0392b;
+  }
+  
+  .SearchPage ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .SearchPage li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .SearchPage li:hover {
+    background-color: #d5dbdb;
+  }
+  
+  .SearchPage p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Centering search results text */
+  .SearchPage .search-results {
+    text-align: left;
+  }
+  
+  /* No results message */
+  .SearchPage .no-results {
+    color: #555;
+    font-style: italic;
+    margin-top: 10px;
+  }
